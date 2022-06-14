@@ -49,7 +49,7 @@ public class EmployeeListActivity extends AppCompatActivity {
             @Override
             public void onChanged(Throwable throwable) {
                 if(throwable!=null) {
-                    Toast.makeText(EmployeeListActivity.this, "Error", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(EmployeeListActivity.this, "Error111", Toast.LENGTH_SHORT).show();
                     viewModel.clearErrors();
                 }
             }
