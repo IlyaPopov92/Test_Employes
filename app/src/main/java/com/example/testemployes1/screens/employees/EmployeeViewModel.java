@@ -22,7 +22,7 @@ import io.reactivex.disposables.Disposable;
 import io.reactivex.functions.Consumer;
 import io.reactivex.schedulers.Schedulers;
 
-public class EmployeeViewModel extends AndroidViewModel {
+/*public class EmployeeViewModel extends AndroidViewModel {
 
     private static AppDatabase db;
     private final LiveData<List<Employee>> employees;
@@ -127,6 +127,6 @@ public class EmployeeViewModel extends AndroidViewModel {
         compositeDisposable.dispose();
         super.onCleared();
     }
-}
+}*/
 
 
