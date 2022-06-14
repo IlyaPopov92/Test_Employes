@@ -19,9 +19,9 @@ import java.util.List;
 
 public class EmployeeListActivity extends AppCompatActivity {
 
-    private RecyclerView recycleViewEmployes;
-    private EmployeAdapter adapter;
-    private EmployeeViewModel viewModel;
+    public RecyclerView recycleViewEmployes;
+    public EmployeAdapter adapter;
+    public EmployeeViewModel viewModel;
 
 
     @Override
