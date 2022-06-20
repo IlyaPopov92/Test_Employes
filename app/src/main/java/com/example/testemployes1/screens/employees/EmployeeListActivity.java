@@ -36,26 +36,6 @@ public class EmployeeListActivity extends AppCompatActivity implements Employees
         recycleViewEmployes.setLayoutManager(new LinearLayoutManager(this));
         recycleViewEmployes.setAdapter(adapter);
         presenter.loadData();
-      /*  viewModel = new ViewModelProvider(this,ViewModelProvider.AndroidViewModelFactory.getInstance(getApplication())).get(EmployeeViewModel.class);
-        //возвращаемы тип LiveData можем вызвать метод observe
-        //подписываемся на getEmployees из EmployeeViewModel и следим из EmployeeListActivity за ее изменениями
-        viewModel.getEmployees().observe(this, new Observer<List<Employee>>() {
-            @Override
-            public void onChanged(List<Employee> employees) {
-                adapter.setEmployees(employees);
-            }
-        });
-
-        viewModel.getError().observe(this, new Observer<Throwable>() {
-            @Override
-            public void onChanged(Throwable throwable) {
-                if(throwable!=null) {
-                    Toast.makeText(EmployeeListActivity.this, "Error111", Toast.LENGTH_SHORT).show();
-                    viewModel.clearErrors();
-                }
-            }
-        });
-        viewModel.loadData();*/
     }
 
 
